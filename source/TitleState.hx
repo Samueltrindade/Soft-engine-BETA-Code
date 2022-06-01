@@ -601,18 +601,18 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Fnf by'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('Samuel Germano', 15);
+					addMoreText('Samuel team', 15);
+					addMoreText('Team silver', 15);
 					#else
-					addMoreText('present');
+					addMoreText('apresentam');
 					#end
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
@@ -623,9 +623,9 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['Nao associado', 'com'], -40);
 					#else
-					createCoolText(['In association', 'with'], -40);
+					createCoolText(['Associadi', 'com'], -40);
 					#end
 				case 8:
 					addMoreText('newgrounds', -40);
@@ -650,13 +650,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Fnf');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('Soft');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Engine'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
